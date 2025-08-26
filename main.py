@@ -1,5 +1,4 @@
 import requests
-
 def main():
     url = "https://catfact.ninja/facts?page=1"
     response = requests.get(url)
@@ -26,3 +25,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
